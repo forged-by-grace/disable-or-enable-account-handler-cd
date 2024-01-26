@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: disable-or-enable-account-app
-        image: conano/disable-or-enable-account-handler:0.0.1-3
+        image: conano/disable-or-enable-account-handler:0.0.1-4
         envFrom:
         - secretRef:
             name: disable-or-enable-account-secret
